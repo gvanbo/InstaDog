@@ -1,12 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
+
+import NewUserInput from './NewUserInput';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ScrollView>
+        <NewUserInput />
+      </ScrollView>
     </View>
   );
 }
@@ -14,8 +17,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'teal',
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 16
   },
 });
