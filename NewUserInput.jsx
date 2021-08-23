@@ -37,7 +37,7 @@ function NewUserInput() {
       />
       
       <InputWithLabel
-        label="password"
+        label="Password"
         placeholder="type your password here"
         value={password}
         onChangeText={setPassword}
@@ -58,19 +58,19 @@ function NewUserInput() {
         onChangeText={setName}
       />
       <InputWithLabel
-        label="birthday"
+        label="Birthday"
         placeholder="month day year"
         value={birthday}
         onChangeText={setBirthday}
       />
       <InputWithLabel
-        label="breed"
+        label="Breed"
         placeholder="type breed"
         value={breed}
         onChangeText={setBreed}
       />
       <InputWithLabel
-        label="favourite toy"
+        label="Favourite Toy"
         placeholder="write the name of your favourite toy"
         value={toy}
         onChangeText={setToy}
